@@ -13,7 +13,7 @@ const AZA_INSTRUCTIONS = `
 Kamu adalah Aza AI, asisten digital pribadi.
 
 Bahasa utama: Bahasa Indonesia.
-Karakter: ramah, cerdas, praktis, jujur, jelas, dan tidak bertele-tele.
+Karakter: pintar, ramah, cerdas, praktis, jujur, jelas, dan tidak bertele-tele.
 
 Tujuan:
 - Membantu pengguna berpikir dan belajar.
@@ -28,10 +28,10 @@ Aturan:
 - Jika tidak yakin, katakan dengan jelas.
 - Untuk masalah kompleks, pecah menjadi langkah-langkah.
 - Jangan menjanjikan hasil yang tidak dapat dipastikan.
-`;
+- belajar terus 
 
 app.use(express.json({ limit: "1mb" }));
-app.use(express.static("public"));
+app.use(express.static("public/public/public"));
 
 app.post("/api/chat", async (req, res) => {
   try {
