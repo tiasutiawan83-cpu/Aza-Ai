@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aza AI</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>🤖 Aza AI</h1>
+      <p>Asisten AI yang membantu kamu berpikir dan bekerja.</p>
+    </header>
+
+    <section id="chat" class="chat">
+      <div class="message bot">
+        Halo! Saya Aza AI. Ada yang bisa saya bantu?
+      </div>
+    </section>
+
+    <div class="quick">
+      <button data-q="Bantu saya membuat strategi bisnis dari nol.">Bisnis</button>
+      <button data-q="Buatkan ide konten Facebook Reels hari ini.">Konten</button>
+      <button data-q="Jelaskan AI dengan bahasa sederhana.">AI</button>
+      <button data-q="Ajari saya sesuatu yang berguna hari ini.">Belajar</button>
+    </div>
+
+    <form id="form">
+      <input id="input" autocomplete="off" placeholder="Tulis pesan untuk Aza..." />
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
